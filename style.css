@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania&display=swap');
+
+@font-face{
+    font-family: Booter;
+    src: url("assets/Fonts/Booter - Zero Zero.woff") format("woff") ,
+         url("assets/Fonts/Booter - Zero Zero.woff2") format("woff2");
+          font-weight: normal;
+          font-style: normal;
+}    
+
+*{
+    box-sizing: border-box;
+    font-family: Raleway ;
+    color: #777;
+}
+html, body{
+    margin: 0;
+    padding: 0 ;
+}
+.nav-header{
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+.nav-header ul{
+    margin: 0;
+
+}
+.nav-header li{
+    display: inline;
+    padding: 0 4%;
+}
+.nav-header a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.nav-header a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.main-header{
+    background-image: url("assets/Images/Header Background.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+.header-title h1{
+    font-family: booter;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    font-size: 8em;
+}
+.footer-title{
+    float: left;
+    margin: 0;
+    font-size: 3em;
+    font-family:"Booter";
+
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: "Metal Mania" ;
+    font-weight: normal;
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+}
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.about-band-image:hover{
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    margin: 0;
+    background-color: grey;
+}
+
+.main-footer{
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+.main-footer h3{
+    color: white;
+    font-family: Booter;
+    font-size: 3em;
+    margin-top: .25em;
+    text-align: center;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.footer-nav {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.main-footer-container li{
+    display: inline;
+    padding: 0 .5em;
+
+}
+.footer-nav a{
+    display: inline-block;
+    border-radius: 30px;
+
+}
+.footer-nav a:hover{
+    background-color:rgba(255, 255, 255, .3);
+}
+.footer-nav .youtube:hover{
+    background-color: rgba(255, 0, 0, 0.762);
+}
+.footer-nav .spotify:hover{
+    background-color: green;
+}
+.footer-nav .facebook:hover{
+    background-color: blue;
+}
+.main-footer h3:hover{
+    color: black;
+}
+.footer-nav img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
