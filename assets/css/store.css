@@ -1,0 +1,11 @@
+.header-title h1{
+    margin-bottom: 0;
+}
+.container .btn-header{
+    margin-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.nav-header .store{
+    background-color: rgba(255, 255, 255, .3);
+}
